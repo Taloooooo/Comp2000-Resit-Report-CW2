@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity4">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="413dp"
+        android:layout_height="96dp"
+        android:background="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@android:color/white" />
+
     <Button
         android:id="@+id/button4"
         android:layout_width="112dp"
@@ -190,5 +200,5 @@
         android:text="Welcome User!"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="42dp" />
+        tools:layout_editor_absoluteY="73dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

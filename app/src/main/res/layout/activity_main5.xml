@@ -23,12 +23,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="148dp"
+        android:layout_marginBottom="96dp"
         android:text="Welcome User!"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/checkBox8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.438"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolbar" />
 
@@ -108,6 +108,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Select The Book To Reserve"
-        tools:layout_editor_absoluteX="118dp"
-        tools:layout_editor_absoluteY="100dp" />
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="149dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

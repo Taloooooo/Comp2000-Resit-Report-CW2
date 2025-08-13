@@ -11,11 +11,11 @@ public class ApiClient {
 
     public static Retrofit getRetrofit() {
         if (retrofit == null) {
-            com.example.comp2000resit_reportcw2.HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
-            loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
+            HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
+            logging.setLevel(HttpLoggingInterceptor.Level.BODY);
 
-            com.example.comp2000resit_reportcw2.OkHttpClient client = new OkHttpClient.Builder()
-                    .addInterceptor(loggingInterceptor)
+            OkHttpClient client = new OkHttpClient.Builder()
+                    .addInterceptor(logging)
                     .build();
 
             retrofit = new Retrofit.Builder()
@@ -28,13 +28,13 @@ public class ApiClient {
     }
 
 
-  //  package com.example.comp2000resit_reportcw2.;
+   //package com.example.comp2000resit_reportcw2.; // lol this doesnt work, i just think i have written to code badly, or formatted wrong, i get an illegal start type error, so i will ignore it... for now
 
- //   public class UserData {
-//        int id;
-//        public String firstname;
- //       String lastname;
-//        String email;
-//        String joiningdate;
-//        int leaves;
+ //  public class UserData {
+  //     int id;
+  //     public String firstname;
+  //     String lastname;
+  //     String email;
+  //      String joiningdate;
+  //      int leaves;
     }

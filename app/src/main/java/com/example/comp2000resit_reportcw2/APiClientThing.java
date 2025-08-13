@@ -1,7 +1,5 @@
 package com.example.comp2000resit_reportcw2;
 
-public class APiClientThing {
-}
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;

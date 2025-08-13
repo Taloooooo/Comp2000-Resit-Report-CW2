@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
-}
+} //time to copy paste this in every other button....
+
 
 
 

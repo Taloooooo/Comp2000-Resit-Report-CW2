@@ -11,10 +11,10 @@ public class ApiClient {
 
     public static Retrofit getRetrofit() {
         if (retrofit == null) {
-            HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
+            com.example.comp2000resit_reportcw2.HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
             loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
 
-            OkHttpClient client = new OkHttpClient.Builder()
+            com.example.comp2000resit_reportcw2.OkHttpClient client = new OkHttpClient.Builder()
                     .addInterceptor(loggingInterceptor)
                     .build();
 
@@ -25,4 +25,16 @@ public class ApiClient {
                     .build();
         }
         return retrofit;
+    }
+
+
+  //  package com.example.comp2000resit_reportcw2.;
+
+ //   public class UserData {
+//        int id;
+//        public String firstname;
+ //       String lastname;
+//        String email;
+//        String joiningdate;
+//        int leaves;
     }

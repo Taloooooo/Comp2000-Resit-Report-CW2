@@ -49,7 +49,7 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Book_Logo_1"
+        app:srcCompat="@drawable/book_logo_1"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="23dp"
         tools:ignore="MissingConstraints" />

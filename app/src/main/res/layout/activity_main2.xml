@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:contentDescription="@string/logo_desc"
-        android:src="@drawable/Book_Logo_1"
+        android:src="@drawable/book_logo_1"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 

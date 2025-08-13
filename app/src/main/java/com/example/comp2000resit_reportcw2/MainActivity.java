@@ -26,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
                                         @Override
                                         public void onClick(View view) {
-                                            // Intent to switch to SecondActivity
-                                            Intent intent = new Intent(MainActivity.this, MainActivity2.class); //erm so why are we all the way out here?
+                                            Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                                             startActivity(intent);
                                         }
                                     });

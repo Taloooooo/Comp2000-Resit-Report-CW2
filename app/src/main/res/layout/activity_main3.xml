@@ -18,14 +18,6 @@
         app:titleTextColor="@android:color/white" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="112dp"
-        android:layout_height="37dp"
-        android:text="SIgn Out"
-        tools:layout_editor_absoluteX="289dp"
-        tools:layout_editor_absoluteY="4dp" />
-
-    <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,5 +35,14 @@
         android:text="Book no.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/checkBox3" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EDE9E9"
+        android:text="Sign Out"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="27dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

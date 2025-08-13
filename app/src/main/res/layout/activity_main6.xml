@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:contentDescription="@string/logo_desc"
-        android:src="@drawable/moo_fucking_sucks"
+        android:src="@drawable/Book_Logo_1"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="7dp" />
 

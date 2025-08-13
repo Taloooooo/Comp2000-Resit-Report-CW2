@@ -23,13 +23,12 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         Button button = findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-                                        @Override
-                                        public void onClick(View view) {
-                                            Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-                                            startActivity(intent);
-                                        }
-                                    });
+        button.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+            startActivity(intent);
+        });
+//OH I SEE... a i didnt think to change the R.id.button, because im a muppet, and so i havent actually set it.
+        //this is what i get for mindlessly looking at powerpoints at midnight :D
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

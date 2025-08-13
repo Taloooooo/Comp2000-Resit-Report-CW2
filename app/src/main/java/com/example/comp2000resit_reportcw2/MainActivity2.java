@@ -17,9 +17,18 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
-        Button button = findViewById(R.id.button);
+        setContentView(R.layout.activity_main2);
+        Button button = findViewById(R.id.button7);
         button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Intent to switch to SecondActivity
+                Intent intent = new Intent(MainActivity2.this, MainActivity4.class); //erm so why are we all the way out here?
+                startActivity(intent);
+            }
+        });
+        Button button2 = findViewById(R.id.button8);
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Intent to switch to SecondActivity
@@ -27,6 +36,16 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Button button3 = findViewById(R.id.button10);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Intent to switch to SecondActivity
+                Intent intent = new Intent(MainActivity2.this, MainActivity.class); //erm so why are we all the way out here?
+                startActivity(intent);
+            }
+        });
+
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

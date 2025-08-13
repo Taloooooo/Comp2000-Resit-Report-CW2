@@ -7,6 +7,39 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
 
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Customer!"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View User Book Requests"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable Push Notifications"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:text="View Current Catalogue"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="264dp" />
+
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar3"
         android:layout_width="413dp"
@@ -16,6 +49,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:titleTextColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/logoImage4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/logo_desc"
+        android:src="@drawable/Book_Logo_1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <Button
         android:id="@+id/button2"
@@ -37,12 +80,16 @@
         app:layout_constraintTop_toBottomOf="@id/checkBox3" />
 
     <Button
-        android:id="@+id/button16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#EDE9E9"
+        android:id="@+id/button15"
+        android:layout_width="116dp"
+        android:layout_height="57dp"
+
+        android:backgroundTint="#FBFAFA"
+        android:backgroundTintMode="screen"
         android:text="Sign Out"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="27dp" />
+        android:textColor="#000000"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

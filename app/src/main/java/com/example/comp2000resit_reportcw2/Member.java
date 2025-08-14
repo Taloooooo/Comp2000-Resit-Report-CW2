@@ -12,3 +12,4 @@ public class Member {
 }
 
 //i cant access the server, im not sure why im getting errors when i add other java to enable it, but i guess im just... stuck here? i guess
+// this would be where member information is stored though, it just doesnt work.

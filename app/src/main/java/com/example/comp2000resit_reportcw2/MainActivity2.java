@@ -22,7 +22,7 @@ public class MainActivity2 extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Intent to switch to SecondActivity
+                // Switch to second activity
                 Intent intent = new Intent(MainActivity2.this, MainActivity4.class); //erm so why are we all the way out here?
                 startActivity(intent);
             }
@@ -31,7 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Intent to switch to SecondActivity
+                // Switch to second activity
                 Intent intent = new Intent(MainActivity2.this, MainActivity6.class); //erm so why are we all the way out here?
                 startActivity(intent);
             }
@@ -40,7 +40,7 @@ public class MainActivity2 extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Intent to switch to SecondActivity
+                // Switch to second activity
                 Intent intent = new Intent(MainActivity2.this, MainActivity.class); //erm so why are we all the way out here?
                 startActivity(intent);
             }
